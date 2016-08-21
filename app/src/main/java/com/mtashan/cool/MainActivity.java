@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         if(levas.matches("")){
             messagetwo = "please enter a valid response";
             Toast.makeText(getApplicationContext(), messagetwo, Toast.LENGTH_SHORT).show();
-            return 1;
+            return 2;
         }
         else{
             int levast = Integer.parseInt(leva.getText().toString());
